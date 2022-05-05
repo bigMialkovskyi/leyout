@@ -1,32 +1,263 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Bold', sans-serif;
-    color: 000;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  color: 000;
+  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
-ul, li {
-    display: block;
+ul,
+li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.2px;
+  line-height: 1.4px;
 }
 
-.conteiner{
-    width: 1170px;
-    margin: 0 auto;
+.conteiner {
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .header {
-    background: url('image/image.jpg') no-repeat center top;
-    text-transform: lowercase;
+  margin: 0;
+  padding: 0;
 }
 
-a {
-    text-decoration: none;
+.offer {
+  background: url('image/header-bg.jpg') no-repeat center top / cover;
 }
-  
+
+.slogan {
+  padding-top: 73px;
+  padding-bottom: 158px;
+  background: url('image/slogan-bg.png') no-repeat center top;
+}
+
+header a {
+  color: black;
+  margin-right: 33px;
+}
+
+.menu {
+  display: flex;
+
+}
+
+.menu li a {
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 33px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 28px;
+  text-decoration: none;
+  margin-left: 86px;
+  margin-right: 210px;
+  letter-spacing: 1.1px;
+  line-height: 44.8px;
+  font-weight: bold;
+}
+
+.orange {
+  color: #FD8558;
+}
+
+.offer {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.offer p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 70px;
+  line-height: 85.4px;
+}
+
+.btn {
+  justify-content: space-between;
+  margin-top: 41px;
+  text-transform: none;
+  display: flex;
+}
+
+.start-btn {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: normal;
+  margin-left: 135px;
+  border: 1px solid #FD8558;
+  background-color: #FD8558;
+  width: 154px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+}
+
+.more-btn {
+  margin-right: 135px;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: normal;
+  border: 1px solid #FD8558;
+  width: 154px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+}
+
+.big-baloon {
+  margin: 0;
+  padding: 0;
+  margin-left: 749px;
+  margin-bottom: -7px;
+}
+
+.baloons {
+  display: flex;
+  justify-content: space-between;
+  height: 234px;
+  width: 100%;
+}
+
+.second-baloon {
+  margin-top:  13px;
+  margin-right: 130px;
+}
+
+.crosses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-cross {
+  margin-left: 97px;
+  margin-top: 453px;
+  height: 50px;
+  width: 50px;
+}
+
+.second-cross {
+  margin-top: 179px;
+  margin-right: 112px;
+  height: 34px;
+  width: 34px;
+}
+
+.big-about {
+  margin: 0;
+  font-size: 150px;
+  color: #F7F7F7;
+}
+
+.desc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-bottom {
+  margin-top: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc-left p {
+  color: #333333;
+  font-size: 40px;
+  line-height: 54px;
+  width: 480px;
+  margin: 0;
+  padding: 0;
+  margin-left: 135px;
+}
+
+.desc-left h6 {
+  font-size: 14px;
+  color: #FD8558;
+  margin-left: 135px;
+  margin-bottom: 33px;
+  text-transform: uppercase;
+}
+
+.desc-right h6 {
+  font-weight: normal;
+  width: 565px;
+  font-size: 18px;
+  color: #222222;
+}
+
+.desc-right p {
+  margin-right: 129px;
+  width: 591px;
+  font-size:  15px;
+  color: #999999;
+}
+
+.desc-bottom-right p {
+  font-size: 26px;
+  line-height: 45px;
+  width: 387px;
+  margin: 0;
+  padding: 0;
+}
+
+.orange-slope {
+  color: #FD8558;
+  font-style: oblique;
+}
+
+.desc-bottom-right h5 {
+  font-weight: normal;
+  margin-top: 93px;
+  font-size: 20px;
+  color:#222222;
+}
+
+.desc-bottom-right h6 {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #CACACA;
+}
+
+.desc-bottom-right {
+  padding-top: 68px;
+  margin-right: 205px;
+}
+
+.desc-bottom-left {
+  margin-left: 183px;
+}
