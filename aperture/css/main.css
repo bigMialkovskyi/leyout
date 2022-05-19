@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  background-color: #000;
+  font-size: 14px;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 24px 0;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header ul {
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+  margin-right: 140px;
+}
+
+.header li a {
+  margin-right: 32px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.header img {
+  margin-left: 152px;
+}
+
+.get-template {
+  margin: 0;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
+  padding: 9px 20px 13px 20px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.iceland {
+  background: url('../img/iceland.png') no-repeat center top / cover;
+  padding-bottom: 40px;
+  padding-top: 466px;
+}
+
+.japan {
+  background: url('../img/japan.png') no-repeat center top / cover;
+  padding-bottom: 41px;
+  padding-top: 260px;
+  padding-left: 10px;
+  margin-top: 92px;
+}
+
+.costa-rica {
+  background: url('../img/costa-rica.jpg') no-repeat center top / cover;
+  padding-bottom: 41px;
+  padding-top: 260px;
+  padding-left: 10px;
+}
+
+.text {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.banner-text {
+  width: 298px;
+  margin-left: auto;
+  text-align: left;
+  margin-right: 52px;
+  margin-bottom: 204px;
+}
+
+.banner-text * {
+  text-align: left;
+}
+
+.text h1,
+h5,
+p {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+
+h5 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+h1 {
+  padding-bottom: 18px;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.description-bar {
+  display: flex;
+  width: 295px;
+  margin-top: 14px;
+  margin-left: auto;
+}
+
+.description-bar-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #FFF;
+  margin-right: 16px;
+  margin-left: 6px;
+}
+
+.description-bar img {
+  height: 16px;
+}
+
+.what-we-do {
+  margin-top: 113px;
+}
+
+.what-we-do h3 {
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.collage {
+  margin-top: 36px;
+  padding: 0;
+  padding: 0px 120px 0 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.collage li {
+  width: 576px;
+  height: 600px;
+  margin: 8px;
+  position: relative;
+}
+
+.card {
+  padding: 0 30px;
+  position: absolute;
+  bottom: 5%;
+}
+
+.workspace {
+  background: url('../img/workspace.jpg') no-repeat center top / cover;
+}
+
+.architecture {
+  background: url('../img/architecture.jpg') no-repeat center top / cover;
+}
+
+.forest {
+  background: url('../img/forest.jpg') no-repeat center top / cover;
+}
+
+.deer {
+  background: url('../img/deer.jpg') no-repeat center top / cover;
+}
+
+.sweden {
+  background: url('../img/sweden.jpg') no-repeat center top / cover;
+}
+
+.collage p {
+  text-align: left;
+}
+
+.collage-header {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.white-button {
+  margin-top: 20px;
+  display: flex;
+  width: 143px;
+  background-color: #FFF;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.black-cirkle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  margin: 5px;
+  background-color: #000;
+}
+
+.white-button a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  color: #000000;
+}
+
+.tools {
+  display: flex;
+}
+
+.tools li {
+  width: 50%;
+  height: 540px;
+}
+
+/* .black-card {
+  padding-top: 173px;
+} */
+
+.sweden * {
+  margin-top: 242px;
+}
+
+.black-card-text {
+  padding-top: 173px;
+  width: 514px;
+  margin: 0 auto;
+}
+
+.black-card * {
+  text-align: left;
+}
+
+h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #FFF;
+  margin-bottom: 14px;
+}
