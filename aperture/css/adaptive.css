@@ -44,11 +44,18 @@
   .header ul {
     display: none;
     width: 100%;
-    padding-left: 70%;
+    padding-left: 75%;
   }
 
   .header ul li {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
     margin-top: 10px;
+  }
+
+  .get-template {
+    text-align: right;
   }
 
   .black-card-text {
@@ -67,6 +74,10 @@
 
   .header img {
     margin-left: 50px;
+  }
+
+  .header ul {
+    padding-left: 65%;
   }
 
   .text {
@@ -124,6 +135,16 @@
 @media screen and (max-width: 575px) {
   .container {
     width: 100%;
+  }
+
+  .header ul {
+    padding-left: 45%;
+  }
+
+  .get-template {
+    width: 130px;
+    margin-right: 32px;
+    margin-left: auto;
   }
 
   .description-bar {
