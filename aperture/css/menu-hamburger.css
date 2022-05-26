@@ -1,0 +1,38 @@
+.menu-hamburger {
+  display: none;
+  background-color: #555;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  transition: background-color .3s;
+}
+
+.menu-hamburger:hover {
+  cursor: pointer;
+  background-color: #111;
+}
+
+.menu-hamburger:active {
+  background-color: #333;
+}
+
+.menu-hamburger::after {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+.menu-hamburger img {
+  margin-top: 25%;
+  margin-left: 0; 
+}
+
+@media screen and (max-width: 991px) {
+  .menu-hamburger {
+    display: block;
+  }
+}

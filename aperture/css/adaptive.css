@@ -26,6 +26,10 @@
   .header ul {
     margin-right: 0;
   }
+
+  .past-clients-logo {
+    width: 900px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -39,10 +43,20 @@
 
   .header ul {
     display: none;
+    width: 100%;
+    padding-left: 70%;
+  }
+
+  .header ul li {
+    margin-top: 10px;
   }
 
   .black-card-text {
     width: 50%;
+  }
+
+  .past-clients-logo {
+    width: 750px;
   }
 }
 
@@ -59,21 +73,52 @@
     width: 70%;
   }
 
-  .description-bar {
-    margin: 0 auto;
-  }
-
   .collage li {
     width: 100%;
   }
 
   .tools {
-    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .tools li {
     width: 100%;
   }
+
+  .past-clients-logo {
+    width: 550px;
+  }
+
+  .footer-info {
+    flex-wrap: wrap;
+  }
+
+  .footer ul {
+    margin-top: 40px;
+  }
+
+  .call-block {
+    flex-wrap: wrap;
+  }
+
+  .call-block  div:first-child {
+    margin-bottom: 20px;  
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .add-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .social-networks {
+    margin-top: 20px;
+  }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -82,10 +127,18 @@
   }
 
   .description-bar {
-    margin: 0 auto;
+    justify-content: center;
   }
 
   .black-card-text {
     padding-top: 40px;
   }
+
+  .past-clients-logo {
+    width: 320px;
+  }
+}
+
+.header ul.show {
+  display: block;
 }
